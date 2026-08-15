@@ -1,2 +1,0 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/browser-5yG4qe2m.js","assets/index-DrAjyqV4.js","assets/index-vVHW-wuF.css"])))=>i.map(i=>d[i]);
-import{l as e,u as t}from"./index-DrAjyqV4.js";function n(e){return e===`mock`}async function r(r=t.VITE_API_MODE){if(!n(r))return;let{worker:i}=await e(async()=>{let{worker:e}=await import(`./browser-5yG4qe2m.js`);return{worker:e}},__vite__mapDeps([0,1,2]));await i.start({onUnhandledRequest:`error`,serviceWorker:{url:`/telegramfarmingapp/mockServiceWorker.js`}})}export{r as startMocking};
