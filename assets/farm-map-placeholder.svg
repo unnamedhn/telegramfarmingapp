@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title description">
+  <title id="title">Isometric farm map placeholder</title>
+  <desc id="description">A static farm field, barn, silo, paths, and trees.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bce7ff"/>
+      <stop offset="1" stop-color="#eaf8ff"/>
+    </linearGradient>
+    <pattern id="rows" width="26" height="16" patternUnits="userSpaceOnUse" patternTransform="skewX(-28)">
+      <rect width="26" height="16" fill="#7db84b"/>
+      <path d="M0 8h26" stroke="#568c38" stroke-width="4"/>
+    </pattern>
+  </defs>
+  <rect width="960" height="540" fill="url(#sky)"/>
+  <path d="M40 300 480 70l440 230-440 230z" fill="#8dc95b" stroke="#47783e" stroke-width="8"/>
+  <path d="m180 305 285-150 220 115-285 150z" fill="url(#rows)" stroke="#47783e" stroke-width="6"/>
+  <path d="m400 420 115-60 150 78-115 60z" fill="#d7bc78" stroke="#9a743c" stroke-width="6"/>
+  <path d="m560 195 90-48 95 50-90 48z" fill="#9c3d36"/>
+  <path d="m575 205 80-42 75 39v92l-75 40-80-42z" fill="#d9574e" stroke="#71352f" stroke-width="6"/>
+  <path d="m655 163 75 39-75 40-80-37z" fill="#6f2f2a"/>
+  <rect x="631" y="249" width="48" height="67" rx="3" fill="#f4dfb1"/>
+  <ellipse cx="792" cy="235" rx="39" ry="20" fill="#d6e0e6" stroke="#71808a" stroke-width="6"/>
+  <path d="M753 235v96c0 12 18 22 39 22s39-10 39-22v-96" fill="#c2cdd4" stroke="#71808a" stroke-width="6"/>
+  <g fill="#397445" stroke="#285535" stroke-width="5">
+    <circle cx="145" cy="240" r="31"/><circle cx="110" cy="355" r="34"/><circle cx="825" cy="360" r="36"/>
+  </g>
+  <g fill="#825431"><rect x="139" y="260" width="12" height="44"/><rect x="104" y="379" width="12" height="42"/><rect x="819" y="386" width="12" height="44"/></g>
+</svg>
